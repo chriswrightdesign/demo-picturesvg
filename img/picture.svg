@@ -29,9 +29,9 @@
       <body xmlns="http://www.w3.org/1999/xhtml">
         <div class="svg-image">
           <picture>
-              <source media="(min-width: 30em)" srcset="dog.png" />
-              <source media="(min-width: 20em)" srcset="dog-smaller.png" />
-              <source media="(min-width: 10em)" srcset="dog-thumb.png" />
+              <source media="(min-width: 30rem)" srcset="dog.png" />
+              <source media="(min-width: 20rem)" srcset="dog-smaller.png" />
+              <source media="(min-width: 10rem)" srcset="dog-thumb.png" />
               <img src="dog-smaller.png" alt="dog" />
           </picture>
         </div>
