@@ -1,0 +1,50 @@
+<svg viewBox="0 0 150 100"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+     <defs>
+        <style>
+            body, picture {
+              margin: 0;
+              font-size: 100%;
+              padding: 0;
+            }
+            img {
+              display: block;
+            }
+            .svg-image {
+              display: none;
+            }
+            .svg-image img {
+              max-width: 100%;
+              height: auto;
+            }
+
+            @media all and (min-height: 52px){
+              .svg-image {
+                display: block;
+              }
+            }
+        </style>
+     </defs>
+
+    <switch>
+
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <div class="svg-image">
+              <picture>
+                  <source media="(min-width: 30rem)" srcset="dog.png" />
+                  <source media="(min-width: 20rem)" srcset="dog-smaller.png" />
+                  <source media="(min-width: 10rem)" srcset="dog-thumb.png" />
+                  <img src="dog-thumb.png" alt="dog" />
+              </picture>
+            </div>
+          </body>
+        </foreignObject>
+
+        <image xlink:href="dog-smaller.png" x="0" y="0" height="100%" width="100%"/>
+
+    </switch>
+
+
+
+</svg>
